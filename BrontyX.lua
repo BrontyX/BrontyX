@@ -788,7 +788,7 @@ send(msg.chat_id_, msg.id_,'📫¦ تم حذف كليشه ستارت')
 end
 if text == 'تحديث السورس ™' and SudoBot(msg) then 
 os.execute('rm -rf BrontyX.lua')
-os.execute('wget https://raw.githubusercontent.com/kenan313/BrontyX/master/BrontyX.lua')
+os.execute('wget https://raw.githubusercontent.com/BrontyX/BrontyX/main/BrontyX.lua')
 send(msg.chat_id_, msg.id_,'♻¦ تم تحديث السورس') 
 dofile('BrontyX.lua')  
 end
@@ -1906,7 +1906,7 @@ end
 return false
 end
 os.execute('rm -rf BrontyX.lua')
-os.execute('wget https://raw.githubusercontent.com/kenan313/BrontyX/master/BrontyX.lua')
+os.execute('wget https://raw.githubusercontent.com/BrontyX/BrontyX/main/BrontyX.lua')
 send(msg.chat_id_, msg.id_,'♻¦ تم تحديث السورس') 
 dofile('BrontyX.lua')  
 end
