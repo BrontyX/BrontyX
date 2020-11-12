@@ -10,7 +10,7 @@ chmod +x ts
 get() {
 rm -fr BrontyX.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/BrontyX/BrontyX/master/BrontyX.lua"
+wget "https://raw.githubusercontent.com/BrontyX/BrontyX/main/BrontyX.lua"
 lua start.lua
 }
 installall(){
