@@ -71,7 +71,7 @@ RunBrontyX:write([[
 cd $HOME/BrontyX
 token="]]..database:get(Server_BrontyX.."Token_BrontyX")..[["
 rm -fr BrontyX.lua
-wget "https://raw.githubusercontent.com/BrontyX/BrontyX/master/BrontyX.lua"
+wget "https://raw.githubusercontent.com/BrontyX/BrontyX/main/BrontyX.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./BrontyX.lua -p PROFILE --bot=$token

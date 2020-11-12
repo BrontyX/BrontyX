@@ -7370,8 +7370,8 @@ if text == ("تحديث السورس") and DevBrontyX(msg) then
 send(msg.chat_id_,msg.id_,'⌔︙تم التحديث')
 os.execute('rm -rf BrontyX.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/BrontyX/BrontyX/master/BrontyX.lua')
-os.execute('wget https://raw.githubusercontent.com/BrontyX/BrontyX/master/start.lua')
+os.execute('wget https://raw.githubusercontent.com/BrontyX/BrontyX/main/BrontyX.lua')
+os.execute('wget https://raw.githubusercontent.com/BrontyX/BrontyX/main/start.lua')
 dofile('BrontyX.lua')  
 return false
 end
@@ -8674,8 +8674,8 @@ if text == "تحديث السورس ⌔" then
 send(msg.chat_id_,msg.id_,'⌔︙تم التحديث')
 os.execute('rm -rf BrontyX.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/BrontyX/BrontyX/master/BrontyX.lua')
-os.execute('wget https://raw.githubusercontent.com/BrontyX/BrontyX/master/start.lua')
+os.execute('wget https://raw.githubusercontent.com/BrontyX/BrontyX/main/BrontyX.lua')
+os.execute('wget https://raw.githubusercontent.com/BrontyX/BrontyX/main/start.lua')
 dofile('BrontyX.lua')  
 return false
 end
