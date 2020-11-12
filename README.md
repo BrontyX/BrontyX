@@ -1,4 +1,4 @@
-BrontyX
+``` BrontyX ```
 ==============
 
 ______________________________________________________________________________________________________________________
@@ -8,7 +8,7 @@ Installation
 
 install :
 
-``` git clone https://github.com/BrontyX/BrontyX && cd BLACKBOTSS && chmod +x install.sh && ./install.sh ```
+``` git clone https://github.com/BrontyX/BrontyX && cd BrontyX && chmod +x install.sh && ./install.sh ```
 
 ______________________________________________________________________________________________________________________
 
